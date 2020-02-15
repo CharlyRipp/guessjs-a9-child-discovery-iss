@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { ParentRoutingModule } from './parent-routing.module';
 import { ParentComponent } from './parent.component';
+import { ChildModule } from './child/child.module';
 
 
 @NgModule({
   declarations: [ParentComponent],
   imports: [
     CommonModule,
-    ParentRoutingModule
+    ParentRoutingModule,
+    ChildModule
   ]
 })
 export class ParentModule { }
