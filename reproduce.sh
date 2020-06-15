@@ -1,4 +1,4 @@
-npm install -g @angular/cli # Ensure 9.0.2+
+npm install -g @angular/cli # Ensure 9.1.8+
 ng new a9-child-discovery-iss -s -t --minimal --routing --interactive=false
 cd a9-child-discovery-iss/
 ng add @nguniversal/express-engine
